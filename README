@@ -1,0 +1,6 @@
+This is a simple PHP script which is used to generate a graph (using Google).
+The data for the graph is taken from a Microsoft Excel which is loaded into an array via the simplexlsx.class.php class (not written by me).
+
+My class (gxdata) creates an instance of the SimpleXLSX class, loads the data into an array then I traverse the array in two different which results in the same data being displayed in 2 different ways.
+The index.php ultilizes jQuery to allow the user to do a bit of customization to the graph.
+A class was created because I figure you might be looking to see the PHP language be used in an object oriented fashion.
